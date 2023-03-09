@@ -1,5 +1,5 @@
 {
-  "name": "xpress-template",
+  "name": "xpress-payment-template",
   "version": "0.1.0",
   "bin": "./bin/cli.js",
   "private": false,
