@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gelionRegular";
+  src: url("./fonts/Gelion-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gelionBold";
+  src: url("./fonts/Gelion-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gelionLight";
+  src: url("./fonts/Gelion-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
+html {
+  font-family: "gelionRegular";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  display: none;
+}
+
+::-webkit-scrollbar-track:hover {
+  display: block;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  display: block;
+}
+
+.ant-table-thead > tr > th {
+  position: relative;
+  font-weight: 400;
+  text-align: left !important;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s ease;
+  font-weight: bold !important;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  position: relative;
+  padding: 0px !important;
+  overflow-wrap: break-word;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.ant-btn-primary {
+  background-color: #006e01;
+}
+
+.ant-btn-primary:hover {
+  border: 1px solid #006e01;
+  color: #006e01 !important;
+  background-color: transparent !important;
+}
+
+.ant-btn-default {
+  border: 1px solid #006e01 !important;
+  color: #006e01 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+:where(
+    .css-dev-only-do-not-override-io2q4c
+  ).ant-menu-light.ant-menu-root.ant-menu-inline,
+:where(
+    .css-dev-only-do-not-override-io2q4c
+  ).ant-menu-light.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none !important;
+}
+
+
+:where(.css-dev-only-do-not-override-1lz04yw).ant-menu-light.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-1lz04yw).ant-menu-light.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none !important;
+}
