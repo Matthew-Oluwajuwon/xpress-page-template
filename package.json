@@ -1,6 +1,7 @@
 {
-  "name": "xpress-page-template",
+  "name": "xpress-template",
   "version": "0.1.0",
+  "bin": "./bin/cli.js",
   "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
